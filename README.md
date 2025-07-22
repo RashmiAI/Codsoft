@@ -1,83 +1,53 @@
-# 🧮 Kivy Standard Calculator
+# 🔧 Python GUI Projects (Tkinter & Kivy)
 
-A beautifully designed standard calculator built using [Kivy](https://kivy.org/), a Python framework for developing multitouch applications. This calculator mimics the clean look and layout of modern mobile calculators, with full keyboard support and a smooth user experience.
-
----
-
-## 🚀 Features
-
-- Basic arithmetic operations: `+`, `-`, `×`, `÷`
-- Keyboard input support
-- Memory buttons (UI only - logic not yet implemented)
-- Backspace and clear functions (`C`, `CE`, `⌫`)
-- Percentage and decimal support
-- Clean UI styled using Kivy's KV language
-- Responsive layout for desktop and mobile-sized windows
+This repository includes three beginner-to-intermediate-level Python GUI tasks built using **Tkinter** and **Kivy**.
 
 ---
 
-## 🛠️ Built With
+## 📁 Calculator Task 1
 
-- **Python 3**
-- **Kivy** – GUI framework for cross-platform development
+### 📄 Overview
+A basic calculator application using **Tkinter** that performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
----
-
-## 📦 Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/kivy-calculator.git
-   cd kivy-calculator
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   pip install kivy
-   ```
-
-3. **Run the App**
-   ```bash
-   python main.py
-   ```
+### 🛠️ File
+- `calculator_task1.py` — Full implementation
 
 ---
 
-## 💡 Keyboard Shortcuts
+## 📁 Password Generator Task 2
 
-| Key           | Action               |
-|---------------|----------------------|
-| 0-9           | Enter numbers        |
-| + - × ÷       | Operators            |
-| = or Enter    | Calculate result     |
-| Backspace     | Delete last digit    |
-| Escape / C    | Clear all            |
-| .             | Add decimal point    |
+### 📄 Overview
+A secure random password generator using **Tkinter**. Features include:
+- Length selection
+- Upper/lowercase, digits, symbols toggle
+- Copy-to-clipboard function
 
----
-
-## 📁 Project Structure
-
-```
-kivy-calculator/
-│
-├── main.py         # Main application logic
-├── README.md       # Project description
-```
+### 🛠️ File
+- `Password_task2.py` — Password generator GUI app
 
 ---
 
-## 📌 To Do
+## 📁 RSP Game Task 3
 
-- Implement memory functions (MC, MR, M+, M-, MS, M▾)
-- Add scientific calculator features (optional)
-- Improve error handling and UX feedback
+### 📄 Overview
+A Rock Paper Scissors game built with **Kivy** featuring:
+- Keyboard controls
+- Hover animations
+- End-game popup
+- Score tracker
+
+### 🛠️ File
+- `RSP_Game_task3.py` — Full interactive game using Kivy
 
 ---
 
-## 🙋‍♂️ Author
+## 📦 Requirements
 
-**Rashmi Bhosale**
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/rashmi-bhosale-000ba6268/) or raise issues and suggestions via GitHub.
+Install dependencies via pip:
 
----
+```bash
+pip install kivy
