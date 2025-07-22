@@ -1,0 +1,42 @@
+✊🖐✌️ Rock Paper Scissors Game – Overview
+🎮 What It Is
+A visually engaging, interactive Rock Paper Scissors game built using the Kivy framework. It supports keyboard controls, smooth animations, hover effects, and has a score-tracking system with an animated popup for game-over state.
+
+🚀 Features
+Feature	Description
+🔤 Keyboard Controls	Play using R, P, S keys (rock, paper, scissors)
+🖱️ Animated Hover Buttons	Buttons scale up when hovered for better user experience
+📈 Score Tracking	Keeps score of both player and computer
+🎨 Stylish UI	Gradient background, animated title, modern color palette
+🏁 End-Game Detection	Declares a winner when one reaches 5 points
+🧠 AI Opponent	Random move generator simulates computer opponent
+🎉 Animated Popups	Game over popup with animation and restart option
+🔄 Reset Game	Reset button to start over anytime
+⚙️ Animated Feedback	Labels and scores animate when updated
+
+🧱 App Architecture
+RockPaperScissorsApp (App)
+│
+└── RockPaperScissors (FloatLayout)
+     ├── Title, Score, and Instructions (AnimatedLabel)
+     ├── Hover-enabled Choice Buttons: Rock, Paper, Scissors
+     ├── Keyboard Binding: R/P/S to play, Enter to close popup, Esc to reset
+     ├── Game Logic: make_choice() → get_winner()
+     ├── Animated End-Game Popup with restart
+     └── Gradient Background with Two Color Layers
+
+UX & Design Highlights
+🟢 Animated Labels: Title and result messages grow/shrink smoothly.
+
+🔴 HoverButton: Custom button class that animates scaling on hover.
+
+🔵 Popup on Win: Clean and colorful popup with restart button.
+
+🟡 Color Themes: Uses hex colors like #A8DADC, #457B9D, #EF476F for a calming yet vibrant feel.
+
+🟣 Entrance Animation: All main UI elements bounce into view on load/reset.
+
+🧠 Game Logic
+Choices: "Rock", "Paper", "Scissors"
+
+Random computer choice using random.choice
